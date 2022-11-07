@@ -1,13 +1,13 @@
 {
-  "name": "my-package",
+  "name": "lucky124testja",
   "main": "./lib/my-package",
-  "version": "0.1.0",
-  "description": "A short description of your package",
+  "version": "1.0.1",
+  "description": "lucky124testja",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "my-package:toggle"
   },
-  "repository": "https://github.com/atom/my-package",
+  "repository": "https://github.com/lucky124slot/lucky124slot.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
