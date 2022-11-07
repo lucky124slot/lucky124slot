@@ -86,7 +86,7 @@
     "xmlhttprequest": "^1.8.0"
   },
   "deprecated": false,
-  "description": "lucky124play หวย สลอต บาคาร่า",
+  "description": "lucky124playlucky124slot หวย มวย บอล บาคาร่า",
   "devDependencies": {
     "@nteract/types": "^7.1.7",
     "@types/atom": "^1.40.10",
@@ -119,14 +119,13 @@
   },
   "homepage": "https://github.com/nteract/hydrogen#readme",
   "keywords": [
-    "lucky124play บาคาร่า",
-    "lucky124play หวย",
-    "lucky124play มวย",
-    "lucky124play บอล"
+    "testtag1",
+    "testtag2",
+    "testtag3"
   ],
   "license": "MIT",
   "main": "./dist/main",
-  "name": "Lucky124playweii",
+  "name": "lucky124playlucky124slot",
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
@@ -162,5 +161,5 @@
     "test.lint": "eslint .",
     "tsc": "tsc -p lib/tsconfig.json || echo done"
   },
-  "version": "2.18.0"
+  "version": "2.16.3"
 }
