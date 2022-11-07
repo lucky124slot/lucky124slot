@@ -1,7 +1,7 @@
 {
   "name": "lucky124ja",
   "main": "./lib/my-package",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "lucky124ja description",
   "keywords": [],
   "activationCommands": {
