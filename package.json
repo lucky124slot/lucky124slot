@@ -1,9 +1,13 @@
 {
-  "name": "lucky124testja",
+  "name": "lucky124play",
   "main": "./lib/my-package",
-  "version": "1.0.1",
-  "description": "lucky124testja",
-  "keywords": [],
+  "version": "1.0.2",
+  "description": "lucky124play สล็อต หวย มวย บาคาร่า",
+  "keywords": [
+    "lucky124play สล็อต",
+    "lucky124play หวย",
+    "lucky124play บาคาร่า"
+  ],
   "activationCommands": {
     "atom-workspace": "my-package:toggle"
   },
