@@ -179,11 +179,11 @@
   ],
   "license": "MIT",
   "main": "./lib/main",
-  "name": "lucky124naajaa",
+  "name": "lucky124naajaaa",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucky124slot/lucky124slot.git"
   },
   "theme": "ui",
-  "version": "2.3.0"
+  "version": "2.4.0"
 }
