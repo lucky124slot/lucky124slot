@@ -1,16 +1,3 @@
-.DS_Store
-npm-debug.log
 node_modules
-.ipynb_checkpoints
-*.ipynb
-kernel-configs/
-types/
-flow-typed/
-.json
-!spec/helpers/*.ipynb
-.mypy_cache/
-.ropeproject/
-
-# Build directories
-dist
-.parcel-cache/
+.npm-debug*
+styles/user-settings.less

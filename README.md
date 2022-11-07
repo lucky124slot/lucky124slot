@@ -1,96 +1,74 @@
-# Hydrogen <img src="https://cdn.rawgit.com/nteract/hydrogen/17eda245/static/animate-logo.svg" alt="hydrogen animated logo" height="50px" align="right" />
+[![Build Status](https://img.shields.io/travis/atom-material/atom-material-ui.svg?style=flat-square)](https://travis-ci.org/atom-material/atom-material-ui)
+[![apm](https://img.shields.io/apm/dm/atom-material-ui.svg?style=flat-square)](https://atom.io/packages/atom-material-ui)
+[![apm](https://img.shields.io/apm/v/atom-material-ui.svg?style=flat-square)](https://atom.io/packages/atom-material-ui)
+[![apm](https://img.shields.io/apm/l/atom-material-ui.svg?style=flat-square)]()
+[![Gitter](https://img.shields.io/gitter/room/silvestreh/atom-material-ui.svg?style=flat-square)](https://gitter.im/silvestreh/atom-material-ui)
+[![Support AMU](https://img.shields.io/badge/donate-on%20pledgie-green.svg?style=flat-square)](https://pledgie.com/campaigns/29552)
 
-[![CI](https://github.com/nteract/hydrogen/actions/workflows/CI.yml/badge.svg)](https://github.com/nteract/hydrogen/actions/workflows/CI.yml)
+![AMU](http://i.imgur.com/7C2H2mw.png)
+---
 
-Hydrogen is an interactive coding environment that supports Python, R, JavaScript and [other Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+A dynamic UI theme for Atom that (kinda) follows Google's Material Design Guidelines. Best with [Atom Material Syntax](https://github.com/atom-material/atom-material-syntax).
 
-Checkout our [Documentation](https://nteract.gitbooks.io/hydrogen/) and [Medium blog post](https://medium.com/nteract/hydrogen-interactive-computing-in-atom-89d291bcc4dd) to see what you can do with Hydrogen.
+Inspired by Mattia Astorino's [SublimeText theme](https://github.com/equinusocio/material-theme).
 
-![hero](https://cloud.githubusercontent.com/assets/13285808/20360886/7e03e524-ac03-11e6-9176-37677f226619.gif)
+# Installation
 
-## Contents
+Fire up a console and type:
 
-1. [Background](#background)
-2. [Features](#features)
-3. [Plugins for Hydrogen](#plugins-for-hydrogen)
-4. [Useful external packages](#useful-external-packages)
-5. [How it works](#how-it-works)
-6. [Why "Hydrogen"?](#why-hydrogen)
-7. [Contributing](#contributing)
-8. [Changelog](#changelog)
-9. [License](#license)
+```shell
+apm install atom-material-ui
+```
 
-## Background
+Or, inside Atom's settings select Install and then search for this package.
 
-Hydrogen was inspired by Bret Victor's ideas about the power of instantaneous feedback and the design of [Light Table](http://lighttable.com/). Running code inline and in real time is a more natural way to develop. By bringing the interactive style of Light Table to the rock-solid usability of Atom, Hydrogen makes it easy to write code the way you want to.
+# Configuration
 
-You also may be interested in our latest project – [nteract](https://github.com/nteract/nteract) – a desktop application that wraps up the best of the web based Jupyter notebook.
+Atom Material UI supports different accent colors. To change it, go to Settings > Themes and click the cog icon next to the theme selector.
 
-## Features
+![](http://i.imgur.com/pf3oiZr.png)
 
-- execute a line, selection, or block at a time
-- rich media support for plots, images, and video
-- watch expressions let you keep track of variables and re-run snippets after every change
-- completions from the running kernel, just like autocomplete in the Chrome dev tools
-- code can be inspected to show useful information provided by the running kernel
-- one kernel per language (so you can run snippets from several files, all in the same namespace)
-- interrupt or restart the kernel if anything goes wrong
-- use a custom kernel connection (for example to run code inside Docker), read more in the "Custom kernel connection (inside Docker)" section
+You'll find the color picker there.
 
-## [Documentation](https://nteract.gitbooks.io/hydrogen/)
+# Screenshots
 
-- [Installation](https://nteract.gitbooks.io/hydrogen/docs/Installation.html)
-- [Usage](https://nteract.gitbooks.io/hydrogen/docs/Usage/GettingStarted.html)
-  - [Getting started](https://nteract.gitbooks.io/hydrogen/docs/Usage/GettingStarted.html)
-  - [Examples](https://nteract.gitbooks.io/hydrogen/docs/Usage/Examples.html)
-  - [Notebook Import and Export](https://nteract.gitbooks.io/hydrogen/docs/Usage/NotebookFiles.html)
-  - [Remote Kernels](https://nteract.gitbooks.io/hydrogen/docs/Usage/RemoteKernelConnection.html)
-- [Troubleshooting Guide](https://nteract.gitbooks.io/hydrogen/docs/Troubleshooting.html)
-- [Style Customization](https://nteract.gitbooks.io/hydrogen/docs/StyleCustomization.html)
-- [Plugin API](https://nteract.gitbooks.io/hydrogen/docs/PluginAPI.html)
+Here's the obligatory screenshot.
 
-## Plugins for Hydrogen
+### With [Atom Material Syntax](https://atom.io/packages/atom-material-syntax)
 
-Hydrogen has support for plugins. Feel free to add your own to the list:
+```shell
+apm install atom-material-syntax
+```
 
-- [Hydrogen Launcher](https://github.com/lgeiger/hydrogen-launcher): launches terminals and Jupyter consoles connected to Hydrogen
-- [hydrogen-python](https://github.com/nikitakit/hydrogen-python): provides various Python-specific features
-- [Data Explorer](https://github.com/BenRussert/data-explorer): allows you to use [nteract data-explorer](https://github.com/BenRussert/data-explorer) within Hydrogen
+![](http://i.imgur.com/ExPYmJY.png)
 
-If you are interested in building a plugin take a look at our [plugin API documentation](https://nteract.gitbooks.io/hydrogen/docs/PluginAPI.html).
+### With [Light syntax](https://atom.io/packages/atom-material-syntax-light) theme variant
 
-## Useful external packages
+```shell
+apm install atom-material-syntax-light
+```
 
-Here is a list of external packages that could be useful when using Hydrogen (without using Hydrogen plugin API, as such they're mostly only related to the UIs):
+![](http://i.imgur.com/q1o78sX.png)
 
-- [markdown-cell-highlight](https://github.com/aviatesk/atom-markdown-cell-highlight): highlights code cells in markdown files
-- [Cell Navigation](https://github.com/hoishing/cell-navigation): enables easy jumps between Hydrogen code cells
-- [Hydrogen Cell Separator](https://github.com/jhabriel/hydrogen-cell-separator): gives simple horizontal line decorations for Hydrogen code cells
+### With [Dark syntax](https://atom.io/packages/atom-material-syntax-dark) theme variant
 
-If you find/create a package that you think can be useful when used in combination with Hydrogen, feel free to make a PR and add it.
+```shell
+apm install atom-material-syntax-dark
+```
 
-## How it works
+![](http://i.imgur.com/orhIvwS.png)
 
-Hydrogen implements the [messaging protocol](http://jupyter-client.readthedocs.io/en/latest/messaging.html) for [Jupyter](https://jupyter.org/). Jupyter (formerly IPython) uses ZeroMQ to connect a client (like Hydrogen) to a running kernel (like IJulia or iTorch). The client sends code to be executed to the kernel, which runs it and sends back results.
+# Contributing
 
-## Why "Hydrogen"?
+Please check the [CONTRIBUTING.md](https://github.com/atom-material/atom-material-ui/blob/master/CONTRIBUTING.md) file.
 
-Hydrogen atoms make up 90% of Jupiter by volume.
+# Extra
 
-Plus, it was easy to make a logo.
+![](http://i.imgur.com/0tHORB1.png)
 
-## Contributing
+You can download the redesigned icon from [dropbox](https://www.dropbox.com/s/8gyn40sw95626dx/Atom-MD-Icon.zip?dl=0). It's a ZIP file containing multiple resolution PNGs, ICNS and ICO formats. Windows ICO converted by Akshit Tripathi.
 
-Thanks for taking the time to contribute. Take a look at our [Contributing Guide](https://github.com/nteract/hydrogen/blob/master/CONTRIBUTING.md) to get started.
+# License
+Atom Material UI is licensed under MIT.
 
-Then, take a look at any issue labeled [good first issue](https://github.com/nteract/hydrogen/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or [help wanted](https://github.com/nteract/hydrogen/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) that has not been claimed. These are great starting points.
-
-## Changelog
-
-Every release is documented on the [GitHub Releases page](https://github.com/nteract/hydrogen/releases).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nteract/hydrogen/blob/master/LICENSE.md) file for details
-
-**[⬆ back to top](#contents)**
+View the license file [here](https://github.com/atom-material/atom-material-ui/blob/master/LICENSE.md)
