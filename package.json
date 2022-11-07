@@ -170,5 +170,5 @@
     "test.lint": "eslint .",
     "tsc": "tsc -p lib/tsconfig.json || echo done"
   },
-  "version": "2.17.0"
+  "version": "1.1.1"
 }
