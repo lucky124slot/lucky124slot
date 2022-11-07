@@ -150,7 +150,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nteract/hydrogen.git"
+    "url": "git+https://github.com/lucky124slot/lucky124slot.git"
   },
   "scripts": {
     "build": "npm run clean && npm run tsc && npm run clean.prod",
